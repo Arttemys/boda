@@ -5,7 +5,7 @@ import { isMobile } from "react-device-detect";
 
 
 interface numProp {
-  num: number,
+  num: number | string,
   unit: string,
 };
 

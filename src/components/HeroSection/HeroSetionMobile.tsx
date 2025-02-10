@@ -7,13 +7,14 @@ import Logo from '../../../public/logo.png'
 export const HeroSetionMobile = () => {
 
   return <>
-    <Grid container sx={{ height: '100dvh', justifyContent: 'center', alignItems: 'center' }}>
+    <Grid container sx={{ height: '100dvh', maxHeight: '100dvh', justifyContent: 'center', alignItems: 'center' }}>
       <Image
         alt="hero-banner"
         src={RingJPEG}
         style={{
           width: '100dvw',
           height: '100dvh',
+          maxHeight: '100dvh',
           position: 'absolute',
           zIndex: -1,
           objectFit: 'cover'
