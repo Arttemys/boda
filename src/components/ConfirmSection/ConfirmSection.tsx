@@ -25,7 +25,7 @@ export const ConfirmSection = () => {
       />
       <CustomTypography variant="h5" color="primary.main" letterSpacing={1} label="CONFIRMACION DE ASISTENCIA" />
       <CustomTypography variant="h5" color="primary.main" letterSpacing={1} fontFamily={'kalam'} align="center" fontStyle={"italic"} label="Esperamos que puedas acompañarnos en este momento tan especial!" />
-      <CustomTypography variant="h6" color="primary.main" letterSpacing={1} sx={{ width: isMobile ? '80%' : '40%', textAlign: 'center' }} label="Te pedimos que completes este formulario antes del 1 de diciembre de 2025. si fuiste invitado/a con un acompañante" />
+      <CustomTypography variant="h6" color="primary.main" letterSpacing={1} sx={{ width: isMobile ? '80%' : '40%', textAlign: 'center' }} label="Te pedimos que completes este formulario antes del 1 de diciembre de 2025. Si fuiste invitado/a con un acompañante" />
       <CustomTypography variant={isMobile ? 'h6' : 'h5'} color="primary.main" letterSpacing={1} sx={{ textDecoration: 'underline' }} label="completar un formulario por persona" />
       <Box sx={{ width: isMobile ? '80%' : '40%', textAlign: 'center' }}>
         <CustomTypography variant="h6" color="primary.main" letterSpacing={1} label={`Precio de tarjeta: ${encondingString && encondingString === 'tarjetaSpecial' ? '$40000' : '$70000'}`} />

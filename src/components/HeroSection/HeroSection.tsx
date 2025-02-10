@@ -52,7 +52,7 @@ export const HeroSection = () => {
       </Grid>
       <Grid size={6} sx={{ position: 'absolute', bottom: 48 }}>
         <CustomTypography variant="h6" color="primary" fontWeight={700} align="center"
-          label="Hay momentos en la vida que son muy especiales por si solos, pero al compartirlos con personas tan especiales como tu, se convierten en momentos imposibles de olvidar. Te esperamos en nuestra boda!" />
+          label="Hay momentos en la vida que son muy especiales por si solos, pero al compartirlos con personas tan especiales como vos, se convierten en momentos imposibles de olvidar. Te esperamos en nuestra boda!" />
       </Grid>
     </Grid >
   </>
