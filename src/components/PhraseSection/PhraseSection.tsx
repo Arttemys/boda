@@ -68,6 +68,7 @@ export const PhraseSection = () => {
                 height={80}
               />
               <CustomTypography variant={isMobile ? 'h6' : 'h5'} color="primary" fontWeight={isMobile ? 400 : 300} align="center" label={section.text} />
+              {section.alias && <CustomTypography variant="h6" color="primary" fontWeight={700} label={`Alias: ${section.alias}`} mt={1} />}
             </Box>
           </Grid>
         )
