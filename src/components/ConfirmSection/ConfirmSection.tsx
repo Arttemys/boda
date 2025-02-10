@@ -16,7 +16,7 @@ export const ConfirmSection = () => {
   const href = encondingString && encondingString === 'tarjetaSpecial' ? 'https://forms.gle/gtQeK1THCAm2g8j6A' : 'https://forms.gle/dgCMe8jZUV9trPjH9'
 
   return (
-    <Grid container size={12} py={3} spacing={2} sx={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center' }}>
+    <Grid container size={12} py={3} spacing={2} sx={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center', backgroundColor: 'white' }}>
       <Image
         alt="check-gif"
         src='/check.gif'

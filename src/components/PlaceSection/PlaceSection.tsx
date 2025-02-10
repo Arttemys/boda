@@ -6,7 +6,7 @@ import { isMobile } from "react-device-detect";
 
 
 export const PlaceSection = () => {
-  return <Grid container spacing={2} sx={{ justifyContent: 'center', mb: 5 }}>
+  return <Grid container spacing={2} sx={{ justifyContent: 'center', mb: 5, backgroundColor: 'white' }}>
     <Grid size={12}>
       <div className={styles.hDivider}>
         <div className={styles.shadow}></div>
