@@ -30,7 +30,7 @@ export const PhraseSection = () => {
       value: 'gift',
       src: '/surprise.png',
       alias: 'Arttemys',
-      text: 'El regalo es una forma de mostrar tu amor y gratitud. pero si deseas hacernos uno podrias ayudarnos a cumplir nuestros mayores deseos.'
+      text: 'Nuestro mejor regalo es tu compañia, pero si deseas hacernos uno podrias ayudarnos a cumplir nuestros mayores deseos.'
     }
   }
 
