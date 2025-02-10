@@ -18,6 +18,7 @@ export const TimerHeader = () => {
       fontStyle={"italic"}
       mb={3}
       fontFamily={'kalam'}
+      align='center'
     />
     <CustomTypography
       variant={isMobile ? 'h5' : 'h4'}
