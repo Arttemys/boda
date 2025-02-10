@@ -1,6 +1,8 @@
 import { Grid2 as Grid } from "@mui/material";
 import Image from "next/image";
 import { CustomTypography } from "../CustomTypography/CustomTypography";
+import RingJPEG from '../../../public/ring.jpeg'
+import Logo from '../../../public/logo.png'
 
 export const HeroSetionMobile = () => {
 
@@ -8,10 +10,10 @@ export const HeroSetionMobile = () => {
     <Grid container sx={{ height: '100dvh', justifyContent: 'center', alignItems: 'center' }}>
       <Image
         alt="hero-banner"
-        src='/ring.jpeg'
-        width={425}
-        height={800}
+        src={RingJPEG}
         style={{
+          width: '100dvw',
+          height: '100dvh',
           position: 'absolute',
           zIndex: -1,
           objectFit: 'cover'
@@ -20,13 +22,12 @@ export const HeroSetionMobile = () => {
       <Grid>
         <Image
           alt="logo"
-          src={'/logo.png'}
-          width={400}
-          height={400}
+          src={Logo}
           style={{
-            position: 'absolute',
-            bottom: '50%',
-            left: '6dvw',
+            width: '150%',
+            height: 'auto',
+            marginLeft: '-25%',
+            marginTop: '-100%'
           }}
         />
       </Grid>
