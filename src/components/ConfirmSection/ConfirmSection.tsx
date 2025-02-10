@@ -1,4 +1,4 @@
-import { Button, Grid2 as Grid, Typography } from "@mui/material"
+import { Box, Button, Grid2 as Grid, Typography } from "@mui/material"
 import Image from "next/image"
 import { CustomTypography } from "../CustomTypography/CustomTypography"
 import { useSearchParams } from "next/navigation"
@@ -25,10 +25,13 @@ export const ConfirmSection = () => {
       />
       <CustomTypography variant="h5" color="primary.main" letterSpacing={1} label="CONFIRMACION DE ASISTENCIA" />
       <CustomTypography variant="h5" color="primary.main" letterSpacing={1} fontFamily={'kalam'} align="center" fontStyle={"italic"} label="Esperamos que puedas acompañarnos en este momento tan especial!" />
-      <CustomTypography variant="h6" color="primary.main" letterSpacing={1} sx={{ width: isMobile ? '80%' : '40%', textAlign: 'center' }} label="Te pedimos que completes este formulario antes del 01/12/2025. si fuiste invitado/a con un acompañante" />
+      <CustomTypography variant="h6" color="primary.main" letterSpacing={1} sx={{ width: isMobile ? '80%' : '40%', textAlign: 'center' }} label="Te pedimos que completes este formulario antes del 01/12/2025 (1 de diciembre). si fuiste invitado/a con un acompañante" />
       <CustomTypography variant={isMobile ? 'h6' : 'h5'} color="primary.main" letterSpacing={1} sx={{ textDecoration: 'underline' }} label="completar un formulario por persona" />
-      <CustomTypography variant="h6" color="primary.main" letterSpacing={1} label={`Precio de tarjeta: ${encondingString && encondingString === 'tarjetaSpecial' ? '$40000' : '$70000'}`} />
-
+      <Box sx={{ width: isMobile ? '80%' : '40%', textAlign: 'center' }}>
+        <CustomTypography variant="h6" color="primary.main" letterSpacing={1} label={`Precio de tarjeta: ${encondingString && encondingString === 'tarjetaSpecial' ? '$40000' : '$70000'}`} />
+        <CustomTypography variant="h6" color="primary.main" letterSpacing={1} label="Efectivo / trasnferencia bancaria" />
+        <CustomTypography variant="subtitle1" color="primary.main" fontWeight={700} letterSpacing={1} label="*El precio de la tarjeta aumenta segun INDEC" />
+      </Box>
       <Grid size={12} sx={{ display: 'flex', justifyContent: 'center' }}>
         <Button
           variant="contained"
