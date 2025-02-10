@@ -31,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className={`${QuicksandFont.variable} ${kalamFont.variable} ${dancingScriptFont.variable}`}>
         {children}
       </body>
     </html>

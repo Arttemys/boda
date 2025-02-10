@@ -7,10 +7,9 @@ import { isMobile } from "react-device-detect";
 interface numProp {
   num: string | number,
   unit: string,
-  flip: boolean,
 };
 
-export const NumberBox = ({ num, unit, flip }: numProp) => {
+export const NumberBox = ({ num, unit }: numProp) => {
   return (
     <div className={styles.numberBox}>
       <Typography variant={isMobile ? 'h5' : 'h2'} color='primary.light' letterSpacing={3}>

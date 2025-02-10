@@ -9,7 +9,6 @@ export const CountDownSection = () => {
   const [hours, setHours] = useState<number>(0);
   const [minutes, setMinutes] = useState<number>(0);
   const [seconds, setSeconds] = useState<number>(0);
-  const [message, setMessage] = useState<string>("");
   const dueDate = dayjs('12-19-2025 21:00:00');
   const today = dayjs()
   const time = dueDate.diff(today, 'milliseconds')
@@ -34,7 +33,6 @@ export const CountDownSection = () => {
 
       if (difference <= 0) {
         clearInterval(updateTime);
-        setMessage("The Launch Has Started");
         setDays(0);
         setHours(0);
         setMinutes(0);

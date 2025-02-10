@@ -1,4 +1,5 @@
 import Image from "next/image";
+// @ts-expect-error TS2307: Cannot find module '@splidejs/react-splide' or its corresponding type declarations
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 
 // Default theme

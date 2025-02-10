@@ -1,6 +1,5 @@
 import { Grid2 as Grid } from "@mui/material";
 import Image from "next/image";
-import { HeroImage } from "./HeroImage/HeroImage";
 import { CustomTypography } from "../CustomTypography/CustomTypography";
 
 export const HeroSetionMobile = () => {
