@@ -15,7 +15,7 @@ export const NumberBox = ({ num, unit }: numProp) => {
       <Typography variant={isMobile ? 'h5' : 'h2'} color='primary.light' letterSpacing={3}>
         {num}
       </Typography>
-      <Typography variant='h5' color='primary.light' letterSpacing={5}>
+      <Typography variant={isMobile ? 'subtitle1' : 'h5'} color='primary.light' letterSpacing={isMobile ? 1 : 5}>
         {unit}
       </Typography>
     </div>

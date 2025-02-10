@@ -9,11 +9,12 @@ export const HeroSetionMobile = () => {
       <Image
         alt="hero-banner"
         src='/ring.jpeg'
-        width={800}
+        width={425}
         height={800}
         style={{
           position: 'absolute',
           zIndex: -1,
+          objectFit: 'cover'
         }}
       />
       <Grid>
