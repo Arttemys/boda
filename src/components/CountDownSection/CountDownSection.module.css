@@ -1,0 +1,31 @@
+.timerContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60;
+}
+
+.numberBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3;
+}
+
+.timerHeader {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10;
+}
+
+/* Media query para móviles */
+@media (max-width: 768px) {
+  .timerContainer {
+    gap: 16px;
+  }
+}
