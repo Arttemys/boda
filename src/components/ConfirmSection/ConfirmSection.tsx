@@ -30,6 +30,8 @@ export const ConfirmSection = () => {
       <Box sx={{ width: isMobile ? '80%' : '40%', textAlign: 'center' }}>
         <CustomTypography variant="h6" color="primary.main" letterSpacing={1} label={`Precio de tarjeta: ${encondingString && encondingString === 'tarjetaSpecial' ? '$50000' : '$70000'}`} />
         <CustomTypography variant="h6" color="primary.main" letterSpacing={1} label="Efectivo / trasnferencia bancaria" />
+        <CustomTypography variant="h6" color="primary.main" letterSpacing={1} label="CBU: Arttemys (Damian Acurso)" />
+        <CustomTypography variant="h6" color="primary.main" letterSpacing={1} label="Enviar comprobante a los novios!" />
         <CustomTypography variant="subtitle1" color="primary.main" fontWeight={700} letterSpacing={1} label="*El precio de la tarjeta aumenta segun INDEC" />
       </Box>
       <Grid size={12} sx={{ display: 'flex', justifyContent: 'center' }}>
