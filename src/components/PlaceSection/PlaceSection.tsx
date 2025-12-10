@@ -27,7 +27,7 @@ export const PlaceSection = () => {
       <Typography variant={isMobile ? 'body1' : 'h5'} letterSpacing={2} align="center">
         Queremos que compartas con nosotros este momento tan especial,
         por lo que te invitamos a que nos acompañes a celebrarlo.<br />
-        Te esperamos a las 21:00 hs.<br />
+        Te esperamos a las 20:00 hs para la celebracion del civil, sino podes ingresar a partir de las 21:00 hs.<br />
         En <Link href={'https://www.instagram.com/mola_multieventos/?igsh=YW94amo2MTc3OHY1#'} target="_blank"><span style={{ fontWeight: 'bold', textDecoration: 'underline' }}>Mola Eventos</span></Link><br />
         San Martin 152, Roldan, Santa Fe
       </Typography>
